@@ -85,10 +85,6 @@
                     
                     <button type="submit" class="btn btn-primary" style="width: 100%;">Login</button>
                 </form>
-                
-                <p style="text-align: center; margin-top: 20px; font-size: 0.9rem; color: #7f8c8d;">
-                    Default: admin / admin123
-                </p>
             </div>
         </div>
     </body>
