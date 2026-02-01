@@ -51,6 +51,16 @@
         ];
     }
 
+    // Format currency
+    function formatCurrency($amount) {
+        return '₱' . number_format((float)$amount, 2);
+    }
+
+    // Format date/time
+    function formatDateTime($datetime) {
+        return date('M d, Y h:i A', strtotime($datetime));
+    }
+
     // Log audit trail
     function logAudit($conn, $action, $table_name, $record_id = null, $description = null) {
         if (!isLoggedIn()) {
